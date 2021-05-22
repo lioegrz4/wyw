@@ -1,0 +1,45 @@
+//
+//  wyw.pch
+//  wyw
+//
+//  Created by com.chetuba on 16/3/21.
+//  Copyright © 2016年 XIAO. All rights reserved.
+//
+
+#ifndef wyw_pch
+#define wyw_pch
+
+
+//====================屏幕的宽 高=======================
+#define ScreenWidth ((([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationPortrait) || ([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationPortraitUpsideDown)) ? [[UIScreen mainScreen] bounds].size.width : [[UIScreen mainScreen] bounds].size.height)
+#define ScreenHigh ((([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationPortrait) || ([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationPortraitUpsideDown)) ? [[UIScreen mainScreen] bounds].size.height : [[UIScreen mainScreen] bounds].size.width)
+
+#define BarHigh 49
+#define NavHigh 64
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
+#import <SVProgressHUD/SVProgressHUD.h>
+
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#import <MJExtension/MJExtension.h>
+#import <MJRefresh/MJRefresh.h>
+//#import <MJPhotoBrowser/MJPhotoBrowser.h>
+//#import <TRMJPhotoBrowser/MJPhotoBrowser.h>
+//#import <TRMJPhotoBrowser/MJPhoto.h>
+//#import <TRWebImage/UIImageView+WebCache.h>
+
+#import "MJPhotoBrowser.h"
+#import "MJPhoto.h"
+
+
+
+#import "UIViewController+XBKit.h"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* wyw_pch */
