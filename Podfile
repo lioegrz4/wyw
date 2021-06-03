@@ -15,7 +15,7 @@ pod 'MJExtension'
 ##pod 'TRMJPhotoBrowser', '~> 1.0.6'
 #pod 'MJPhotoBrowser', '~> 1.0.2'
 #pod 'CXPhotoBrowser', '~> 1.1.1'
-
+pod 'Masonry', '~> 1.0.2'
 pod 'SDWebImage', '~> 3.7.5'
 pod 'MBProgressHUD', '~> 1.0.0'
 pod 'SVProgressHUD', '~>1.1.3'
