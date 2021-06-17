@@ -50,6 +50,8 @@
 		B96AEC231E609A7100DE014F /* YZDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B96AEC1C1E609A7100DE014F /* YZDisplayTitleLabel.m */; };
 		B96AEC241E609A7100DE014F /* YZDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96AEC1E1E609A7100DE014F /* YZDisplayViewController.m */; };
 		B96AEC251E609A7100DE014F /* YZFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B96AEC211E609A7100DE014F /* YZFlowLayout.m */; };
+		B96AEC281E61BB6A00DE014F /* XSHPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B96AEC271E61BB6A00DE014F /* XSHPlayer.bundle */; };
+		B96AEC2B1E61BB9000DE014F /* XSHPlayerToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = B96AEC2A1E61BB9000DE014F /* XSHPlayerToolView.m */; };
 		B9FC205A1E603E90009C4F0A /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FC20591E603E90009C4F0A /* ItemModel.m */; };
 		B9FC206D1E603EA0009C4F0A /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FC205D1E603EA0009C4F0A /* MBProgressHUD+Add.m */; };
 		B9FC206E1E603EA0009C4F0A /* MJPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FC205F1E603EA0009C4F0A /* MJPhoto.m */; };
@@ -161,6 +163,10 @@
 		B96AEC1F1E609A7100DE014F /* YZDisplayViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewHeader.h; sourceTree = "<group>"; };
 		B96AEC201E609A7100DE014F /* YZFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFlowLayout.h; sourceTree = "<group>"; };
 		B96AEC211E609A7100DE014F /* YZFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFlowLayout.m; sourceTree = "<group>"; };
+		B96AEC271E61BB6A00DE014F /* XSHPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XSHPlayer.bundle; sourceTree = "<group>"; };
+		B96AEC291E61BB9000DE014F /* XSHPlayerToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSHPlayerToolView.h; sourceTree = "<group>"; };
+		B96AEC2A1E61BB9000DE014F /* XSHPlayerToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSHPlayerToolView.m; sourceTree = "<group>"; };
+		B96AEC2C1E61BC9200DE014F /* XSHPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSHPlayer.h; sourceTree = "<group>"; };
 		B9FC20581E603E90009C4F0A /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
 		B9FC20591E603E90009C4F0A /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
 		B9FC205C1E603EA0009C4F0A /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
@@ -384,6 +390,7 @@
 		B95BD2591E603CA7008F158C /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				B96AEC261E61B9F700DE014F /* XSHPlayer */,
 				B96AEC181E609A7100DE014F /* YZDisplayViewController */,
 				B9FC205B1E603EA0009C4F0A /* MJPhotoBrowser */,
 				B95BD25A1E603CA7008F158C /* KrVideoPlayer */,
@@ -458,6 +465,17 @@
 				B96AEC211E609A7100DE014F /* YZFlowLayout.m */,
 			);
 			path = YZDisplayViewController;
+			sourceTree = "<group>";
+		};
+		B96AEC261E61B9F700DE014F /* XSHPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B96AEC271E61BB6A00DE014F /* XSHPlayer.bundle */,
+				B96AEC291E61BB9000DE014F /* XSHPlayerToolView.h */,
+				B96AEC2A1E61BB9000DE014F /* XSHPlayerToolView.m */,
+				B96AEC2C1E61BC9200DE014F /* XSHPlayer.h */,
+			);
+			path = XSHPlayer;
 			sourceTree = "<group>";
 		};
 		B9FC20571E603E90009C4F0A /* Model */ = {
@@ -637,6 +655,7 @@
 			files = (
 				183251641C9BCC3E0043A60D /* LaunchScreen.storyboard in Resources */,
 				B95BD2811E603CA7008F158C /* kr-video-player-fullscreen@3x.png in Resources */,
+				B96AEC281E61BB6A00DE014F /* XSHPlayer.bundle in Resources */,
 				B95BD27F1E603CA7008F158C /* kr-video-player-close@3x.png in Resources */,
 				B95BD2821E603CA7008F158C /* kr-video-player-pause@2x.png in Resources */,
 				B95BD2871E603CA7008F158C /* kr-video-player-point@3x.png in Resources */,
@@ -742,6 +761,7 @@
 				B9323D4C1DE8A4DA00AD8F83 /* HomeBViewController.m in Sources */,
 				B95BD2491E603AE3008F158C /* Rrawer.swift in Sources */,
 				B9FC20741E603EA0009C4F0A /* MJPhotoView.m in Sources */,
+				B96AEC2B1E61BB9000DE014F /* XSHPlayerToolView.m in Sources */,
 				B9323D7C1DE8B95500AD8F83 /* VidePayViewController.m in Sources */,
 				183251591C9BCC3D0043A60D /* AppDelegate.m in Sources */,
 				B95BD28C1E603CA7008F158C /* TFHpple.m in Sources */,
